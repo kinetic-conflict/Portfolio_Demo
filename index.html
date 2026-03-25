@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shreeram T A - Backend Developer & Systems Enthusiast. Building scalable systems.">
+    <title>Shreeram T A | Portfolio</title>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Subtle animated background elements -->
+    <div class="bg-elements">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="floating-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">S<span class="logo-accent">.</span></a>
+            <button class="mobile-menu-btn" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="section-container hero-wrapper">
+                <div class="hero-text fade-in-up">
+                    <p class="greeting glow-text-subtle">Hello, world. I'm</p>
+                    <h1 class="name-title">Shreeram T A</h1>
+                    <h2 class="role-title">Backend Developer & Systems Enthusiast</h2>
+                    <p class="tagline">
+                        “Building scalable systems and exploring the depth of computer science.”
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary float-hover">View Projects</a>
+                        <a href="#contact" class="btn btn-outline float-hover">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Profile Image -->
+                <div class="hero-image-container fade-in-up delay-1">
+                    <div class="img-glow-wrap">
+                        <img class="profile-img float-continuous" src="profile.jpg" alt="Shreeram T A Profile" loading="lazy" onerror="this.src='https://via.placeholder.com/300x300/111827/8B5CF6?text=STA'">
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-indicator fade-in-up delay-2" aria-label="Scroll down">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+            </a>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <div class="section-container">
+                <h2 class="section-title fade-in-up">About Me</h2>
+                <div class="about-content fade-in-up delay-1 floating-card">
+                    <p>
+                        I'm a first-year BTech Computer Science (Core) student with an insatiable curiosity for how things work under the hood. My core interests lie deep within <strong>backend development, systems engineering</strong>, and exploring the diverse domains of CSE. 
+                    </p>
+                    <p>
+                        I firmly believe in learning by doing. For me, computer science isn't just about syntax; it's about <em>building</em>, problem-solving, and figuring out how to architect solutions that scale. I'm highly disciplined, growth-driven, and always searching for the next conceptual challenge to tackle.
+                    </p>
+                    
+                    <div class="about-details">
+                        <div class="detail-block">
+                            <h3 class="detail-heading"><i class="fas fa-graduation-cap icon-accent"></i> Education</h3>
+                            <ul class="detail-list list-minimal">
+                                <li><strong>Kendriya Vidyalaya</strong> (2013–2025) <br><span class="text-muted">Completed Schooling</span></li>
+                                <li><strong>VIT Vellore</strong> <br><span class="text-muted">BTech CSE (Core) - First Year</span></li>
+                            </ul>
+                        </div>
+                        <div class="detail-block">
+                            <h3 class="detail-heading"><i class="fas fa-heart icon-accent"></i> Beyond Code</h3>
+                            <p class="text-muted">
+                                When I'm not tracing pointers or debugging APIs, you'll probably find me working out, gaming, swimming, doing Taekwondo, or reading deeply about geopolitics and national security. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section relative">
+            <div class="section-container">
+                <h2 class="section-title fade-in-up">Skills Dashboard</h2>
+                
+                <div class="skills-grid">
+                    
+                    <!-- Languages -->
+                    <div class="skill-group fade-in-up floating-card">
+                        <h3><i class="fas fa-code icon-accent"></i> Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span class="skill-name strong-skill">C++</span>
+                                    <i class="fas fa-star text-accent-light" title="Strong skill"></i>
+                                </div>
+                                <div class="skill-track"><div class="skill-fill" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span class="skill-name strong-skill">Python</span>
+                                    <i class="fas fa-star text-accent-light" title="Strong skill"></i>
+                                </div>
+                                <div class="skill-track"><div class="skill-fill" style="width: 85%;"></div></div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                </div>
+                                <div class="skill-track"><div class="skill-fill" style="width: 80%;"></div></div>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-info">
+                                    <span class="skill-name">C</span>
+                                </div>
+                                <div class="skill-track"><div class="skill-fill" style="width: 75%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Core Areas -->
+                    <div class="skill-group fade-in-up delay-1 floating-card">
+                        <h3><i class="fas fa-brain icon-accent"></i> Core Areas</h3>
+                        <ul class="core-list">
+                            <li>
+                                <i class="fas fa-check-circle text-accent"></i>
+                                <div>
+                                    <strong>Data Structures & Algorithms</strong>
+                                    <span class="text-muted block-text">Optimization & complexity analysis</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle text-accent"></i>
+                                <div>
+                                    <strong>Problem Solving</strong>
+                                    <span class="text-muted block-text">Logical deconstruction of complex tasks</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle text-accent"></i>
+                                <div>
+                                    <strong>Backend Development Basics</strong>
+                                    <span class="text-muted block-text">API architecture and server logic</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle text-accent"></i>
+                                <div>
+                                    <strong>System Design Concepts</strong>
+                                    <span class="text-muted block-text">Scalability, load balancing & databases</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools / Tech -->
+                    <div class="skill-group fade-in-up delay-2 floating-card">
+                        <h3><i class="fas fa-tools icon-accent"></i> Tools & Tech</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Git & GitHub</span>
+                            <span class="tech-tag">REST APIs</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Linux</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">AWS Basics</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-container">
+                <h2 class="section-title fade-in-up">Featured Projects</h2>
+                
+                <div class="project-showcase">
+                    
+                    <!-- L-Systems -->
+                    <div class="project-card fade-in-up float-hover-large">
+                        <div class="project-header">
+                            <h3>Lindenmayer Systems</h3>
+                            <a href="https://github.com/kinetic-conflict/LindenmayerSystems_GDG" target="_blank" class="gh-link" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-row"><strong>Problem:</strong> Generating complex, organic natural patterns procedurally using concise algorithmic rules.</div>
+                            <div class="project-row"><strong>Solution:</strong> Developed a logic engine using L-systems to parse recursive rules and mathematically render fractal growth patterns.</div>
+                            <div class="project-row"><strong>Tech:</strong> Python, Tkinter, Turtle Graphics</div>
+                            <div class="project-row contribution"><strong>Contribution:</strong> Fully developed independently</div>
+                        </div>
+                    </div>
+
+                    <!-- MemoryFS -->
+                    <div class="project-card fade-in-up delay-1 float-hover-large">
+                        <div class="project-header">
+                            <h3>MemoryFS</h3>
+                            <a href="https://github.com/kinetic-conflict/MemoryFS_CSI" target="_blank" class="gh-link" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-row"><strong>Problem:</strong> Gaining a deep understanding of standard OS file system operations, directories, and memory allocation.</div>
+                            <div class="project-row"><strong>Solution:</strong> Engineered a robust in-memory file system simulation that mirrors real-world system calls and directory tree navigation.</div>
+                            <div class="project-row"><strong>Tech:</strong> C++, Systems-level programming paradigms</div>
+                            <div class="project-row contribution"><strong>Contribution:</strong> Fully developed independently</div>
+                        </div>
+                    </div>
+
+                    <!-- FinIntel -->
+                    <div class="project-card fade-in-up delay-2 float-hover-large">
+                        <div class="project-header">
+                            <h3 class="multiline-title">FinIntel <br><span class="subtitle">Universal Self-Learning Financial Document Engine</span></h3>
+                            <a href="https://github.com/kinetic-conflict/FinIntel-Universal-Self-Learning-Financial-Document-Engine" target="_blank" class="gh-link" aria-label="GitHub Repo"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-row"><strong>Problem:</strong> Automating the ingestion and deep understanding of heterogeneous, unstructured financial documents.</div>
+                            <div class="project-row"><strong>Solution:</strong> Architected a self-learning backend engine capable of parsing, validating, and extracting critical data points efficiently.</div>
+                            <div class="project-row"><strong>Tech:</strong> Python, FastAPI, API Integration</div>
+                            <div class="project-row contribution type-team"><strong>Contribution:</strong> Built collaboratively in a team</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="section-container">
+                <h2 class="section-title fade-in-up">Experience</h2>
+                
+                <div class="timeline-container fade-in-up">
+                    
+                    <!-- Element 1: Right -->
+                    <div class="timeline-item right">
+                        <div class="timeline-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="timeline-content float-hover">
+                            <div class="timeline-header">
+                                <h3>Web Developer</h3>
+                                <span class="timeline-date">2025 - Present</span>
+                            </div>
+                            <h4 class="timeline-company">CodeChef VIT Student Chapter</h4>
+                            <p>Collaborated with cross-functional teams to deliver optimized frontend and backend solutions.</p>
+                        </div>
+                    </div>
+
+                    <!-- Element 2: Left -->
+                    <div class="timeline-item left">
+                        <div class="timeline-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="timeline-content float-hover">
+                            <div class="timeline-header">
+                                <h3>Web Developer</h3>
+                                <span class="timeline-date">2025 - Present</span>
+                            </div>
+                            <h4 class="timeline-company">ACM VIT Student Chapter</h4>
+                            <p>Worked on production-ready web platforms supporting technical communities and events.</p>
+                        </div>
+                    </div>
+
+                    <!-- Element 3: Right -->
+                    <div class="timeline-item right">
+                        <div class="timeline-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content float-hover">
+                            <div class="timeline-header">
+                                <h3>Freelance Developer</h3>
+                                <span class="timeline-date">2024 - Present</span>
+                            </div>
+                            <h4 class="timeline-company">Self-Employed</h4>
+                            <p>Delivered full-stack and frontend projects for clients with focus on performance, scalability, and clean UI.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <div class="section-container">
+                <h2 class="section-title fade-in-up">Achievements</h2>
+                <h3 class="achievement-category fade-in-up">College Level</h3>
+                <div class="achievement-badges">
+                    <div class="badge-card fade-in-up float-hover">
+                        <div class="badge-icon" style="color: var(--clr-primary); filter: drop-shadow(0 0 10px var(--clr-primary-glow));">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="badge-info">
+                            <h4>Top 50 Finalist</h4>
+                            <p>Global Hackathon 2024 <br><span class="text-muted small">System Architecture Track</span></p>
+                        </div>
+                    </div>
+
+                    <div class="badge-card fade-in-up delay-1 float-hover">
+                        <div class="badge-icon" style="color: var(--clr-secondary); filter: drop-shadow(0 0 10px var(--clr-secondary-glow));">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="badge-info">
+                            <h4>Certified AWS Practitioner</h4>
+                            <p>Cloud Practitioner <br><span class="text-muted small">Amazon Web Services</span></p>
+                        </div>
+                    </div>
+
+                    <div class="badge-card fade-in-up delay-2 float-hover">
+                        <div class="badge-icon" style="color: #10b981; filter: drop-shadow(0 0 10px rgba(16, 185, 129, 0.4));">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="badge-info">
+                            <h4>Open Source Contributor</h4>
+                            <p>Core Systems Protocol <br><span class="text-muted small">Merged 5+ major pull requests</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="achievement-category fade-in-up" style="margin-top: 3rem;">School Level</h3>
+                <div class="achievement-badges">
+                    <div class="badge-card fade-in-up float-hover">
+                        <div class="badge-icon gold-glow">
+                            <i class="fas fa-medal gold"></i>
+                        </div>
+                        <div class="badge-info">
+                            <h4>Gold Medal</h4>
+                            <p>50m Butterfly <br><span class="text-muted small">KVS Regionals</span></p>
+                        </div>
+                    </div>
+
+                    <div class="badge-card fade-in-up delay-1 float-hover">
+                        <div class="badge-icon silver-glow">
+                            <i class="fas fa-medal silver"></i>
+                        </div>
+                        <div class="badge-info">
+                            <h4>Silver Medal</h4>
+                            <p>Taekwondo (50kg) <br><span class="text-muted small">KVS Regionals</span></p>
+                        </div>
+                    </div>
+
+                    <div class="badge-card fade-in-up delay-2 float-hover">
+                        <div class="badge-icon" style="color: #f43f5e; filter: drop-shadow(0 0 10px rgba(244, 63, 94, 0.4));">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="badge-info">
+                            <h4>Innovation Award Winner</h4>
+                            <p>National Science Exhibition <br><span class="text-muted small">IoT-based automation prototype</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section">
+            <div class="section-container text-center">
+                <div class="resume-wrapper fade-in-up floating-card glow-border text-center">
+                    <h2 class="resume-headline">Curriculum Vitae</h2>
+                    <p class="resume-sub">"Download a detailed overview of my work and skills"</p>
+                    <a href="dummy_resume.pdf" class="btn btn-primary btn-large float-hover resume-btn" onclick="alert('PDF download will begin shortly.'); return false;">
+                        <i class="fas fa-file-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section last-section">
+            <div class="section-container">
+                <h2 class="section-title fade-in-up">Connect With Me</h2>
+                
+                <div class="contact-grid">
+                    <!-- Easy Reach -->
+                    <div class="contact-reach fade-in-up floating-card">
+                        <h3>Drop a Line</h3>
+                        <p class="text-muted">I'm always open to discussing backend architectures, new project ideas, or potential collaborations. My inbox is open.</p>
+                        
+                        <div class="contact-links-list">
+                            <a href="mailto:kineticconflict@gmail.com" class="icon-link float-hover">
+                                <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                                <span>kineticconflict@gmail.com</span>
+                            </a>
+                            <a href="https://github.com/kinetic-conflict" target="_blank" class="icon-link float-hover">
+                                <div class="icon-box"><i class="fab fa-github"></i></div>
+                                <span>github.com/kinetic-conflict</span>
+                            </a>
+                            <a href="https://linkedin.com/in/shreeramta" target="_blank" class="icon-link float-hover">
+                                <div class="icon-box"><i class="fab fa-linkedin-in"></i></div>
+                                <span>linkedin.com/in/shreeramta</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form UI -->
+                    <div class="contact-form-ui fade-in-up delay-1 floating-card glow-border">
+                        <form id="contactForm" onsubmit="event.preventDefault(); alert('Transmission sequence initiated. (Form UI Demo)');">
+                            <div class="form-row">
+                                <div class="input-group">
+                                    <input type="text" required id="fName" class="elegant-input" placeholder=" ">
+                                    <label for="fName">Name</label>
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" required id="fEmail" class="elegant-input" placeholder=" ">
+                                    <label for="fEmail">Email</label>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <textarea id="fMessage" required rows="4" class="elegant-input" placeholder=" "></textarea>
+                                <label for="fMessage">Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block float-hover">
+                                Send Transmission <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="minimal-footer">
+        <div class="footer-content">
+            <a href="#home" class="footer-logo">S<span class="logo-accent">.</span></a>
+            <p class="copyright">&copy; 2024 Shreeram T A. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/kinetic-conflict" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/shreeramta" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactivity Script -->
+    <script src="script.js"></script>
+</body>
+</html>
